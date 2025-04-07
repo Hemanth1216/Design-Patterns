@@ -23,11 +23,6 @@ public class WeatherObserserPatternTest {
 		
 		station.measurementsChanges(97.35, 11.874, 9.6218);
 		System.out.println("-----------------------------------");
-//		Observer forecastDisplay = new ForecastDisplay(station);
-//		station.registerObserver(forecastDisplay);
-//		Observer statisticsDisplay = new StatisticsDisplay(station);
-//		station.registerObserver(statisticsDisplay);
-//		station.removeObserver(currentConditionsDisplay);
 	}
 
 }
